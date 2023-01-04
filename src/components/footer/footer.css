@@ -1,0 +1,34 @@
+.container-fluid {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.876);
+  color: #fff;
+}
+
+.copyright {
+    padding-top: 2rem;
+}
+
+.footer__info {
+    margin: 0 auto;
+}
+
+.link {
+    color: #fff;
+    transition: 0.5s;
+  }
+  .link:hover,
+  .link:focus {
+    color: gold;
+    text-decoration: none;
+  }
+  .social {
+   
+    margin: 1rem;
+    color: #fff;
+    transition: 0.5s;
+  }
+  .social:hover,
+  .social:focus {
+    color: gold;
+    transform: scale(2)
+  }

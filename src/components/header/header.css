@@ -1,0 +1,40 @@
+.navbar__custom {
+  color: white;
+  background: rgba(0, 0, 0, 0.876);
+}
+.nav__brand {
+  color: white;
+  font-weight: 700;
+  letter-spacing: 5px;
+  border-radius: 10px;
+  border-color: #fff;
+  border-style: solid;
+  padding: 10px;
+  transition: 0.5s;
+}
+.nav__brand:hover, .nav__brand:focus {
+  transform: scale(1.1);
+  border-color: gold;
+}
+
+.nav__link {
+  margin-left: 1rem;
+  color: #fff;
+  transition: 0.5s;
+}
+.nav__link:hover, .nav__link:active {
+  color: gold;
+  text-decoration: none;
+}
+.nav__toggle {
+  background: #fff;
+}
+@media screen and (max-width: 768px) {
+  .nav__brand:hover, .nav__brand:focus {
+    transform: scale(1);
+  }
+  .nav__link {
+    margin-left: 10px;
+  }
+}
+

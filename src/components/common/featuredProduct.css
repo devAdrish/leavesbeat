@@ -1,0 +1,68 @@
+.featuredproduct__card {
+    margin-top: 1rem;
+    transition: .5s;
+    cursor: pointer;
+}
+.card__main {
+    transition: .5s;
+}
+.card__main:hover{
+    color: white;
+    background: rgba(0, 0, 0, 0.876);
+}
+.card__main:hover .btn__addcart {
+    color: black;
+    background: white;
+}
+.card__inCart {
+    color: white;
+    background: rgba(0, 0, 0, 0.876);
+}
+
+.card__img {
+    max-width: max-content;
+    max-height: max-content;
+    transition: .5s;
+}
+
+.card__title {
+    transition: .5s;
+}
+
+.card__description {
+opacity: 0.5;
+transition: .5s;
+}
+.card__description:hover {
+    opacity: 1;
+}
+.card__price {
+    margin-top: 1rem;
+transition: .5s;
+font-weight: 700;
+}
+.btn__shop, .btn__incart, .btn__addcart {
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-bottom: 1.5rem;
+    width: 50%;
+    align-self: center;
+    transition: .5s;
+    font-weight: 700;
+    border: none;
+}
+.btn__incart, .btn__shop  {
+    background-color: gold;
+}
+.btn__incart:hover, .btn__incart:focus, .btn__shop:hover, .btn__shop:focus {
+    transform: scale(1.1);
+}
+.btn__addcart {
+    background-color: black;
+    color: white;
+}
+.btn__addcart:hover, .btn__addcart:focus {
+    transform: scale(1.1);
+    background-color: #fff;
+    color: black;
+}
